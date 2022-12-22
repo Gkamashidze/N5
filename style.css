@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(./src/fonts/Inter-Regular.ttf);
+}
+
+body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 300px;
+    margin-right: 300px; */
+}
+
+
+
+p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+h1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.box1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    width: 647px;
+    height: 323px;
+}
+
+/* .bottomleft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 150px;
+    bottom: 100px;
+    left: 16px;
+    font-size: 24px;
+    color: #757575;
+    background-color: #F1F1F1;
+} */
+
+
+.text_container {
+    width: 208px;
+    height: 204px;
+    margin-left: 12px;
+}
+
+.lorem {
+    width: 267px;
+    height: 13px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.lorem_text {
+    width: 208px;
+    height: 204px;
+}
+
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    margin-top: 29px;
+
+}
+
+.img1 {
+    float: left;
+    width: 171px;
+    height: 222px;
+}
+
+.hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+hr {
+    width: 647px;
+    margin-top: 33px;
+    margin-bottom: 29px;
+
+    border: 1px solid #E9E9E9;
+}
+
+.box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 29px;
+    margin-bottom: 46px;
+}
+
+.text_container1 {
+    width: 208px;
+    height: 322px;
+}
+
+.menu {
+margin-bottom: 56px;
+}
+
+.menu h1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.menu_list h3 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+}
+
+.menu_list p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+}
+
+.img_container {
+    margin-left: 9px;
+}
+
+.img3 {
+    float: right;
+    width: 208px;
+    height: 322px;
+}
